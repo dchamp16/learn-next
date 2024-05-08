@@ -1,26 +1,31 @@
 import React from 'react';
 import Link from "next/link";
+import { useRouter } from "next/router";
+import BackButton from "@/components/BackButton";
 
-function Setting(props) {
-    const generic = {
-        title: String,
-        description:  String,
-        link-title: String
-    }
+interface Generic {
+    title: string;
+    description: string;
+    linkTitle: string;
+    linkLocation: string;
+}
 
-    generic = {
+const Setting: React.FC = () => {
+    const router = useRouter();
+    const generic: Generic = {
         title: "Setting",
-            description:  "this is from the Setting page",
-        link-title: "setting login",
-    }
+        description: "This is from the Setting page",
+        linkTitle: "Setting Login",
+        linkLocation: "/settings/login/login-setting",
+    };
 
     return (
         <>
             <h1>{generic.title}</h1>
             <p>{generic.description}</p>
-            <Link href="/login"></Link>
+            <Link href={generic.linkLocation}>{generic.linkTitle}</Link>
+            <BackButton/>
         </>
-
     );
 }
 
