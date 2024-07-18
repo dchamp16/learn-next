@@ -1,7 +1,5 @@
-import Header
-    from "@/app/pages/components/Header";
-import Footer
-    from "@/app/pages/components/Footer";
+import Header from "@/app/pages/components/Header";
+import Footer from "@/app/pages/components/Footer";
 import '../styles/globals.css'
 
 export const metadata = {
@@ -22,8 +20,6 @@ export default function RootLayout({
         {children}
         <Footer/>
         </body>
-
-
         </html>
     )
 }
