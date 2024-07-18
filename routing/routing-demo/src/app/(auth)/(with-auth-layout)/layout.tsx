@@ -3,8 +3,8 @@ export default function AuthLayout({children}: {
 }) {
     return (
         <>
+            <h1>Inner layout</h1>;
             {children}
-            <h1>AuthLayout</h1>;
         </>
     )
 }
