@@ -6,7 +6,7 @@ export default function Header() {
         <nav className="bg-gray-800 p-4">
             <div
                 className="container mx-auto flex justify-around">
-                <Link href="../pages/dashboard">
+                <Link href="../dashboard">
                     <span
                         className="text-white hover:text-gray-300 cursor-pointer">Dashboard</span>
                 </Link>

@@ -1,9 +1,17 @@
+'use client'
+
+import {useRouter} from "next/navigation";
+
+
+
 export default function AuthLayout({children}: {
     children: React.ReactNode
 }) {
+
+    const router = useRouter();
     return (
         <>
-            <h1>Inner layout</h1>;
+            <button onClick={router.back}>back</button>
             {children}
         </>
     )

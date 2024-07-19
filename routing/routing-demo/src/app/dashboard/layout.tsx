@@ -3,9 +3,7 @@ export default function ({children}: {
 }) {
     return (
         <>
-            <h1>ramos</h1>
             {children}
-            <h1>lauren</h1>
         </>
     )
 }
