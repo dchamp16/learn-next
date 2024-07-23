@@ -2,7 +2,7 @@ export const metadata = {
     title: 'Product page',
 }
 
-export default function ({children}: {
+export default function ProductLayout ({children}: {
     children: React.ReactNode
 }) {
     return (
