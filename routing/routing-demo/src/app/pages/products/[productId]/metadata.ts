@@ -19,8 +19,3 @@ export const generateMetadata = ({ params }: Props): Metadata => {
         title: `Product ${product.name}` // Return the product name as the title
     };
 };
-
-    return {
-        title: `Product ${product.name}`
-    };
-};

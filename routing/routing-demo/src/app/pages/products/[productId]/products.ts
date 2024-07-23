@@ -34,5 +34,13 @@ export const products: Product[] = [
         description: "A smartwatch to keep you connected and healthy.",
         price: 250,
         inStock: true
+    },
+    {
+        id: 5,
+        name: "Earbuds",
+        description: "A Earbuds simple and inexpensive way to listen to your music.",
+        price: 1000,
+        inStock: true
     }
+
 ];
