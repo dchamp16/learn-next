@@ -10,9 +10,9 @@ export default function Dashboard() {
             <nav
                 className="flex items-center justify-center space-x-4 bg-gray-200 py-4 rounded-md">
                 <Link href={'/login'}
-                      class="px-4 py-2 text-blue-600 hover:text-blue-800 font-medium rounded-md">login</Link>
+                      className="px-4 py-2 text-blue-600 hover:text-blue-800 font-medium rounded-md">login</Link>
                 <Link href={'/register'}
-                      class="px-4 py-2 text-blue-600 hover:text-blue-800 font-medium rounded-md">register</Link>
+                      className="px-4 py-2 text-blue-600 hover:text-blue-800 font-medium rounded-md">register</Link>
             </nav>
 
         </>
