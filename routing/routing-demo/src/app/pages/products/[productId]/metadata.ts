@@ -15,7 +15,7 @@ export const generateMetadata = ({ params }: Props): Metadata => {
         return { title: 'Product Not Found' }; // Return a default title if the product is not found
     }
 
-    return {
+     {
         title: `Product ${product.name}` // Return the product name as the title
     };
 };
