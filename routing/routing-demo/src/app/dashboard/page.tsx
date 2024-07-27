@@ -6,7 +6,6 @@ export default function Dashboard() {
     console.log(formatDate('06/30/1990'))
     return (
         <>
-            <h1 className="text-3xl font-bold text-center mb-8">Dashboard</h1>
             <nav
                 className="flex items-center justify-center space-x-4 bg-gray-200 py-4 rounded-md">
                 <Link href={'/login'}
