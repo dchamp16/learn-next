@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -6,10 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Header() {
     const pathname = usePathname();
 
-    const isActive = (href) => {
-        return pathname === href;
-    };
-    console.log(pathname)
+    const isActive = (href : string) => pathname === href;
 
     return (
         <nav className="bg-gray-800 p-4">

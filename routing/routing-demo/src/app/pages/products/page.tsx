@@ -22,7 +22,7 @@ export default function Products({ params }: Props) {
                     <Link
                         key={`${p.name}${p.id}`}
                         className={'m-3 bg-neutral-400 hover:bg-neutral-200'}
-                        href={`${pathname}/${p.id}`}
+                        href={`/pages/${pathname}/${p.id}`}
                     >
                         {p.name}
                     </Link>
