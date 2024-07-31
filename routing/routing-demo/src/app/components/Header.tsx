@@ -26,6 +26,11 @@ export default function Header() {
                         Products
                     </span>
                 </Link>
+                <Link href="/complex-dashboard">
+                    <span className={`text-white hover:text-gray-300 cursor-pointer ${isActive('/complex-dashboards') ? 'font-bold' : ''}`}>
+                        Complex-Dashboard
+                    </span>
+                </Link>
             </div>
         </nav>
     );
