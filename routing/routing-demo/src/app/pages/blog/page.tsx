@@ -9,6 +9,7 @@ export default function Blog() {
     const getRandomNum = () : number => {
         const num : number = Math.floor(Math.random() * 10);
         setRandomNum(num);
+        return num;
     }
 
     // if(getRandomNum === 3) {
