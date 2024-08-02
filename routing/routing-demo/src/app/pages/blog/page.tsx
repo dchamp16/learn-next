@@ -6,17 +6,14 @@ export default function Blog() {
     const router = useRouter();
     const [randomNum , setRandomNum] = useState(0);
 
-    const getRandomNum = () : any => {
+    const getRandomNum = () : number => {
         const num : number = Math.floor(Math.random() * 10);
         setRandomNum(num);
+        return num
     }
 
-    // if(getRandomNum === 3) {
-    //     throw new Error('error loading review')
-    // }
-
     if(randomNum === 3) {
-        console.log('random random num');
+        throw new Error('error loading review')
     }
 
 
