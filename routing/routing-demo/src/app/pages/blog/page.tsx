@@ -6,10 +6,9 @@ export default function Blog() {
     const router = useRouter();
     const [randomNum , setRandomNum] = useState(null);
 
-    const getRandomNum = () : number => {
+    const getRandomNum = () => {
         const num : number = Math.floor(Math.random() * 10);
         setRandomNum(num);
-        return num;
     }
 
     // if(getRandomNum === 3) {
