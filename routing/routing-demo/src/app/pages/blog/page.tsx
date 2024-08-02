@@ -4,7 +4,7 @@ import {useState} from "react";
 
 export default function Blog() {
     const router = useRouter();
-    const [randomNum , setRandomNum] = useState(null);
+    const [randomNum , setRandomNum] = useState(0);
 
     const getRandomNum = () : any => {
         const num : number = Math.floor(Math.random() * 10);
